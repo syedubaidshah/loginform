@@ -2,6 +2,15 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/fireba
 import {getAuth, onAuthStateChanged, signOut} from "https://www.gstatic.com/firebasejs/10.13.0/firebase-auth.js";
 import{getFirestore, getDoc, doc} from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js"
  
+const firebaseConfig = {
+    apiKey: "AIzaSyAKnGaq1SOkXUBrT6tlokNMVskf8yCW9_0",
+    authDomain: "login-form-31bc8.firebaseapp.com",
+    projectId: "login-form-31bc8",
+    storageBucket: "login-form-31bc8.appspot.com",
+    messagingSenderId: "205320934120",
+    appId: "1:205320934120:web:28c3005081474aa4caef5d"
+  };
+
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
 
